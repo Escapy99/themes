@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "name": "AYN Thor Water OLED — Revenge Plugins",
+  "description": "Experimental monochrome water OLED theme plugin for Revenge on AYN Thor. Adds four colour choices and a bundled water image; no layout modifications.",
+  "plugins": {
+    "io.github.escapy99.aynthor-water-oled": {
+      "name": "AYN Thor · Water OLED",
+      "description": "EXPERIMENTAL theme-plugin bundle: four monochrome OLED palettes and locally bundled monochrome water photography. Device compatibility not verified.",
+      "author": "AYN Thor theme adaptation",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://raw.githubusercontent.com/Escapy99/themes/main/pool/io.github.escapy99.aynthor-water-oled@1.0.0.zip",
+          "sha256": "421340b72feadcce676168bfac286c1f6aff6ae0069641dd7bbd90326ef367dc",
+          "size": 1024435,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "revenge.api.themes": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    }
+  }
+}
