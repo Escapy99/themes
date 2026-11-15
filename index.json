@@ -28,6 +28,32 @@
           }
         }
       }
+    },
+    "io.github.escapy99.aynthor-liquid-glass": {
+      "name": "AYN Thor · Liquid Glass",
+      "description": "Nine glass-inspired monochrome theme modes, with four switchable water photos and user-changeable backgrounds in Revenge.",
+      "author": "AYN Thor glass theme adaptation",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://raw.githubusercontent.com/Escapy99/themes/main/pool/io.github.escapy99.aynthor-liquid-glass%401.0.0.zip",
+          "sha256": "e5663d49f103ffdb9135184c88959621848dc1417705bfadeff5ca2645572e46",
+          "size": 19953,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "revenge.api.themes": {
+              "version": "*"
+            }
+          }
+        }
+      }
     }
   }
 }
